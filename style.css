@@ -16,14 +16,6 @@ body {
     color: white;
 }
 
-/*
-.hero-content {
-    background: rgba(0, 0, 0, 0.6); / Dark overlay for better text visibility /
-    padding: 20px;
-    border-radius: 10px;
-}
-*/
-
 .hero-content h1 {
     font-size: 10rem;
     margin-bottom: 20px;
@@ -63,7 +55,7 @@ body {
 }
 
 .thumbnail:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 /* Zoom into Images */
