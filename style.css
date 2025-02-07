@@ -41,6 +41,13 @@ body {
 /* Gallery of Images */
 body.gallery-page {
     background-color: #1C3229;
+}
+
+#gallery p {
+    color: white;
+}
+
+#gallery h2 {
     color: white;
 }
 
