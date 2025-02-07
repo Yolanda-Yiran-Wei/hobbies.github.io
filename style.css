@@ -16,9 +16,19 @@ body {
     color: white;
 }
 
+#hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Darker overlay */
+}
+
 .hero-content h1 {
     font-size: 5rem;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 .hero-content button {
@@ -38,6 +48,10 @@ body {
 
 
 /* Gallery of Images */
+body.gallery-page {
+    background-color: #1C3229;
+}
+
 .gallery-container {
     display: flex;
     gap: 10px;
