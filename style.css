@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 50px;
+    margin: 0;
     background-color: #f0f0f0;
 }
 
@@ -16,14 +16,16 @@ body {
     color: white;
 }
 
+/*
 .hero-content {
-    background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+    background: rgba(0, 0, 0, 0.6); / Dark overlay for better text visibility /
     padding: 20px;
     border-radius: 10px;
 }
+*/
 
 .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 10rem;
     margin-bottom: 20px;
 }
 
