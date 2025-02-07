@@ -16,9 +16,10 @@ h1 {
 }
 
 .thumbnail {
-    width: auto;
+    width: 150px;
     height: auto;
-    max-width: 150px;
+    object-fit: contain;
+    image-orientation: from-image;
     cursor: pointer;
     border-radius: 5px;
     transition: transform 0.3s;
