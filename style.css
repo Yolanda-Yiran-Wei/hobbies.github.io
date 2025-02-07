@@ -5,10 +5,45 @@ body {
     background-color: #f0f0f0;
 }
 
-h1 {
-    color: #333;
+/* Home Page */
+#hero {
+    height: 100vh; /* Full screen height */
+    background: url('Images/IMG3361.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
 
+.hero-content {
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    background: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-content button:hover {
+    background: #ff3b3b;
+}
+
+
+/* Gallery of Images */
 .gallery-container {
     display: flex;
     gap: 10px;
@@ -29,6 +64,7 @@ h1 {
     transform: scale(1.1);
 }
 
+/* Zoom into Images */
 #lightbox {
     display: none;
     position: fixed;
